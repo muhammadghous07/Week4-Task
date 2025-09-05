@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EventSphere — Discover Upcoming Events</title>
+  <meta name="description" content="EventSphere: Explore upcoming events with dates, venues, details, maps, and RSVP." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#/" class="brand" aria-label="EventSphere Home">
+        <span class="logo" aria-hidden="true"></span>
+        <span>EventSphere</span>
+      </a>
+      <nav class="links" aria-label="Primary">
+        <a href="#/" id="nav-home">Home</a>
+        <a href="#/events" id="nav-events">Upcoming Events</a>
+        <a href="#/contact" id="nav-contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="container" aria-live="polite"></main>
+
+  <footer class="container">
+    <div class="section-title">
+      <div>
+        <strong>EventSphere</strong>
+        <div class="muted">© <span id="year"></span> • Built with ❤️</div>
+      </div>
+      <div class="socials" aria-label="Social links">
+        <a href="https://twitter.com" target="_blank" rel="noopener">Twitter/X</a>
+        <a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

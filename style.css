@@ -1,0 +1,24 @@
+:root{
+  --bg: 245 247 250;
+  --fg: 17 24 39;
+  --muted: 107 114 128;
+  --brand: 99 102 241;
+  --brand-2: 168 85 247;
+  --glass: 255 255 255 / 65%;
+  --card: 255 255 255 / 55%;
+  --shadow: 0 10px 30px rgba(0,0,0,0.15);
+  --radius: 16px;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:"Inter",system-ui,-apple-system,Segoe UI,Roboto,Arial,"Noto Sans",sans-serif;
+  color: rgb(var(--fg));
+  background: radial-gradient(1200px 1200px at 10% 0%, rgba(var(--brand),0.12), transparent 60%),
+              radial-gradient(1000px 900px at 90% 10%, rgba(var(--brand-2),0.12), transparent 60%),
+              rgb(var(--bg));
+  background-attachment: fixed;
+}
+a{color:inherit;text-decoration:none}
+/* --- keep the rest of the CSS from previous code here --- */
